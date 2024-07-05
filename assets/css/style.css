@@ -1,0 +1,669 @@
+/* Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playwrite+FR+Trad:wght@100..400&display=swap');
+/* ---------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 229, 206);
+}
+
+/* Custom styles for the navbar toggler button */
+.navbar-toggler {
+    border-color: white;
+    /* Change border color to white */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.ProfHeadNav {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 5px;
+    font-style: normal;
+}
+
+.backnav {
+    border-radius: 0 0 20px 20px;
+    border-left: 5px solid rgba(162, 238, 76, 0.5);
+    border-right: 5px solid rgba(162, 238, 76, 0.5);
+    border-bottom: 5px solid rgba(162, 238, 76, 0.5);
+    position: fixed;
+}
+
+.navLink {
+    margin-right: 2px;
+    border-radius: 10px;
+}
+
+.navLink:hover {
+    border-radius: 10px;
+    padding-left: 2px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.navAct {
+    border-radius: 10px;
+    padding-left: 2px;
+    background: rgba(162, 238, 76, 0.5);
+}
+
+.footerSet {
+    border-radius: 20px 20px 0 0;
+    border: 5px solid rgba(162, 238, 76, 0.5);
+}
+
+.footBlock {
+    border-bottom: 2px solid white;
+}
+
+.footerCont {
+    text-decoration: none;
+    color: white;
+}
+
+.footerCont:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.youtIcon {
+    color: red;
+}
+
+.youtIcon:hover {
+    color: aquamarine;
+}
+
+.facIcon {
+    color: skyblue;
+}
+
+.instIcon {
+    color: orange;
+}
+
+.btnProf {
+    background: rgba(162, 238, 76, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.btnProf:hover {
+    /* color: aquamarine; */
+    text-decoration: none;
+    /* background: rgba(255, 255, 255, 0.5); */
+    background: rgba(162, 238, 76, 0.8);
+    color: #333;
+}
+
+.siteBtn {
+    background: rgba(162, 238, 76, 1);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* About Home Page starts */
+#about h2 {
+    font-family: "Permanent Marker", cursive;
+    margin-bottom: 20px;
+}
+
+.abtImg {
+    border: 3px solid black;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* .abtImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+} */
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* About Home Page ends */
+/* Experties Home Page starts */
+#expertise .card {
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+#expertise h2 {
+    font-family: "Permanent Marker", cursive;
+}
+
+#expertise .card:hover {
+    transform: scale(1.05);
+}
+
+/* Experties Home Page ends */
+/* Blogs Home Page starts */
+#blogs .card {
+    transition: transform 0.2s;
+}
+
+#blogs h2 {
+    font-family: "Permanent Marker", cursive;
+}
+
+#blogs .card:hover {
+    transform: scale(1.05);
+}
+
+/* Blogs Home Page ends */
+/* Testimonial Home page starts */
+#testimonials {
+    /* background-color: #f9f9f9; */
+    background: black;
+    padding: 40px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.Tesim {
+    align-items: center;
+}
+
+.testimRow {
+    border-bottom: 1px solid grey;
+}
+
+#testimonials h2 {
+    font-family: "Permanent Marker", cursive;
+    margin-bottom: 20px;
+}
+
+.testimonial-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+blockquote {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+    blockquote {
+        font-size: 1rem;
+    }
+
+    .testimonial-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #testimonials {
+        padding: 20px 10px;
+    }
+}
+
+/* Testimonial Home page ends */
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* Social Media */
+
+/* Header Social Media starts */
+.header {
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-title {
+    font-family: "Permanent Marker", cursive;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+/* Header Social Media ends */
+
+/* Contact Social Media starts */
+.social-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.social-box-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.social-box-image:hover {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.social-box:hover .overlay {
+    opacity: 1;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* opacity: 0; */
+    /* transition: opacity 0.3s ease; */
+}
+
+/* .social-box:hover .caption {
+    opacity: 1;
+} */
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* About Page */
+
+.abtSec-container {
+    font-family: Arial, sans-serif;
+}
+
+.abtSec-heading {
+    font-family: "Permanent Marker", cursive;
+}
+
+.abtSec-part {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.abtSec-part:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.abtSec-img-left img,
+.abtSec-img-right img {
+    transition: transform 0.3s ease;
+}
+
+.abtSec-img-left img:hover,
+.abtSec-img-right img:hover {
+    transform: scale(1.1);
+}
+
+.abtSec-text {
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .abtSec-img-left,
+    .abtSec-img-right {
+        order: -1;
+        text-align: center;
+    }
+
+    .abtSec-img-left img,
+    .abtSec-img-right img {
+        margin-bottom: 15px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* Blog Page */
+
+.blg-container {
+    padding: 20px;
+}
+
+.blg-title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.blg-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* transition: transform 1s ease; */
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.blg-section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.blg-section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.blg-description {
+    max-width: 60%;
+    padding: 20px;
+}
+
+.blg-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    animation: fadeIn 1s;
+}
+
+.blg-popup-content {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 90%;
+    width: 600px;
+    position: relative;
+    overflow-y: auto;
+    /* Added overflow-y to enable vertical scrolling */
+    max-height: 100vh;
+    /* Limit height to 80% of viewport height */
+}
+
+.blg-popup-content img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.blur {
+    filter: blur(5px);
+    transition: filter 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .blg-section {
+        flex-direction: column;
+    }
+
+    .blg-description {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* Contact Page */
+.cont-contact-section {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.cont-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.cont-form-container,
+.cont-info-container {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.cont-form-container {
+    max-width: 500px;
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+.cont-info-container {
+    max-width: 500px;
+    animation: fadeInRight 1s ease-in-out;
+}
+
+.cont-form-title,
+.cont-info-title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cont-form-group {
+    margin-bottom: 15px;
+}
+
+.cont-form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cont-form-group input,
+.cont-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.cont-submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(162, 238, 76, 0.8);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cont-submit-btn:hover {
+    background-color: rgba(85, 124, 40, 0.8);
+    color: #fff;
+}
+
+.cont-info-title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cont-form-container,
+    .cont-info-container {
+        max-width: 100%;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* Resume Page */
+.dark-mode {
+    /* background-color: #1a1a1a; */
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .resm-resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .resm-section {
+    margin-bottom: 40px;
+  }
+  
+  .resm-section-title {
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .resm-section-content {
+    margin-left: 30px;
+  }
+  
+  .resm-subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resm-details {
+    margin-bottom: 15px;
+  }
+  
+  .resm-contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .resm-hobbies-list {
+    list-style-type: disc;
+    margin-left: 30px;
+  }
+  
+  .resm-hobbies-list li {
+    margin-bottom: 5px;
+  }
+  
+  .resm-skills-category {
+    margin-bottom: 20px;
+  }
+  
+  .resm-skills-list {
+    list-style-type: none;
+  }
+  
+  .resm-skills-list li {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .resm-section-content {
+      margin-left: 0;
+    }
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+/* ------------------------------------------------------------------------------------------ */
